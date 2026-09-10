@@ -3,22 +3,11 @@ uvicorn[standard]==0.30.6
 motor==3.7.1
 pydantic==2.9.2
 python-dotenv==1.0.1
-
-# --- Step 2: Authentication & User Management ---
 pydantic[email]==2.9.2
 PyJWT==2.9.0
 bcrypt==4.2.0
-
-# --- Step 3: Core Personal Financial Engine ---
-# (Decimal128 monetary storage uses bson, already provided by motor/pymongo — no new package needed.)
-
-# --- Step 4: Personal Budgets & Bills ---
-# (No new dependencies — reuses motor/pydantic/bson already listed above.)
-
-# --- Testing (Step 2 + Step 3) ---
 pytest==8.3.3
 pytest-asyncio==0.24.0
 httpx==0.27.2
 mongomock-motor==0.0.34
-
 resend
