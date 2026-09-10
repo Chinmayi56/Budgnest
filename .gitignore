@@ -1,0 +1,67 @@
+# =========================
+# Backend
+# =========================
+
+backend/.env
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/*.pyc
+
+# =========================
+# Frontend
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production.local
+
+# =========================
+# Environment files
+# =========================
+
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Logs
+# =========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# Python
+# =========================
+
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Build / cache
+# =========================
+
+.cache/
+.parcel-cache/
